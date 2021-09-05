@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../images/contact.jpg") center/cover no-repeat;    
+    background-attachment: fixed;
+}
+.NavBar{
+    width: auto;
+    float: right;
+    margin: 20px 20px;
+}
+.link{
+    margin-left: 10px;
+    color: white;
+}
+.contact{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid yellow;
+    background-color: black;
+    min-height: 50vh;
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+li{
+    margin-bottom: 30px;
+}

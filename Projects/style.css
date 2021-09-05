@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../images/projects.jpg") center/cover no-repeat;    
+}
+.NavBar{
+    width: auto;
+    float: right;
+    margin: 20px 20px;
+}
+.link{
+    margin-left: 10px;
+    color: white;
+}
+.row
+{
+    margin: 30px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../images/about.jpg") center/cover no-repeat;    
+    background-attachment: fixed;
+}
+.NavBar{
+    width: auto;
+    float: right;
+    margin: 20px 20px;
+}
+.link{
+    margin-left: 10px;
+    color: white;
+}
+.aboutMe{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.myPhoto{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
